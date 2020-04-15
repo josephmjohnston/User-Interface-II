@@ -57,19 +57,24 @@ h1{
 }
 
 h2 {
-    width: 100px;
-    font-size: 20px;
+    font-size: 30px;
     padding: 10px 0;
     margin: 10px 0;
 }
 
+p {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
 header section {
     background-color: darkgreen;
-    height: 100px;
+    height: 150px;
 }
 
 nav {
     margin: 15px;
+    padding: 20px;
 }
 
 nav a {
@@ -77,16 +82,16 @@ nav a {
     width: 100px;
     height: 400;
     padding: 5px 25px;
-    /* display: flex;
-    justify-content: start; */
-
 }
 
-.multi-photos {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+section a {
+    border: Blue 2px solid;
+    width: 100px;
+    height: 400;
+    padding: 5px 25px;
+    text-align: center;
 }
+
 
 .section-middle {
     display: flex;
@@ -94,12 +99,41 @@ nav a {
 }
 
 .div-flex {
+    margin: 50px;;
+    width: 100%;
     display: flex;
     flex-direction: column;
-
+    justify-content: center;
+    align-content: center;
 }
 
 footer {
     background-color: aqua;
-    height: 100px;
+    height: 200px;    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
+
+footer a {
+    justify-content: center;
+    align-items: center;
+}
+
+#main-photo {
+    height: 800px;
+    width: 800px;
+}
+
+.wrapper {
+    margin: 20px;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 25px;
+  }
+
+
